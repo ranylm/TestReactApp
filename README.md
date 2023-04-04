@@ -16,7 +16,9 @@ cd TestReactApp
 npm install
 ```
 
--Finished! You now have a local copy of the repository, try 'signing' the CONTRIBUTORS.md file with your name.
+-Finished! You now have a local copy of the repository, try 'signing' the CONTRIBUTORS.md file with your name. Remember to add,commit,push.
+
+You might also want to [save your changes to the main(not forked) repository.](#pushing-your-changes-to-the-original-repository).
 
 ## Running development server
 
@@ -57,12 +59,14 @@ Make sure you have staged(add), commited(commit), and pushed(push) your changes 
 2. Go to the original repo (in this case https://github.com/ranylm/TestReactApp)
 3. Click "Pull request"
    ![pull](https://i.imgur.com/Lxh3rK0.png)
-4. Click compare across forks
+4. Click "New pull request"
+   ![step5](https://i.imgur.com/tZT3Ykj.png)
+5. Click "compare across forks" (underlined in red)
    ![Compare](https://i.imgur.com/IuA1x9F.png)
-5. Set the Base to the ranylm/TestApp repo and the Head to your own.
+6. Set the Base to the ranylm/TestApp repo and the Head to your own.
    ![basehead](https://i.imgur.com/a4Yaq1l.png)
-6. Click "Create pull request"
+7. Click "Create pull request"
    ![makerequest](https://i.imgur.com/1BA7Sn9.png)
-7. Comment on what you did or are contributing/changing. Then click "Create Pull Request"
+8. Comment on what you did or are contributing/changing. Then click "Create Pull Request"
    ![makerequest](https://i.imgur.com/j6twh8d.png)
-8. Done! All you have to do is wait. Your changes will have to be reviewed by the owner(s) of this repo who will either incorporate the change or provide feedback.
+9. Done! All you have to do is wait. Your changes will have to be reviewed by the owner(s) of this repo who will either incorporate the change or provide feedback.
