@@ -32,7 +32,14 @@ function App() {
 
         <main className="h-full w-5/6">
           <Routes>
-            <Route path="/" element={<div className="w-4/6"></div>} />
+            <Route
+              path="/"
+              element={
+                <div className="w-4/6">
+                  <h1 className="text-5xl">RTT-2023-08</h1>
+                </div>
+              }
+            />
             <Route path="/Profiles" element={<Profiles />} />
             <Route path="/Arcade" element={<Arcade />} />
           </Routes>

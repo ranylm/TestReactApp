@@ -1,6 +1,15 @@
 import { MouseEvent } from "react";
+import React from "react";
 
-export default function ProfileCard({ profile }) {
+type Props = {
+  profile: {
+    name: string;
+    link: string;
+    location: string;
+  };
+};
+
+export default function ProfileCard({ profile }: Props) {
   return (
     <div
       className="m-3 h-28 w-96 flex-grow border-spacing-1 overflow-hidden rounded-lg border border-gray-300 p-0 shadow-md shadow-neutral-100 transition-all delay-100 ease-in-out"

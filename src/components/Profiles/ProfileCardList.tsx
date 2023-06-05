@@ -1,5 +1,5 @@
 import ProfileCard from "./ProfileCard";
-export default function ProfileCardList(props) {
+export default function ProfileCardList(props: { term: any }) {
   const names = [
     {
       name: "Annson Cook",

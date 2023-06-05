@@ -14,8 +14,8 @@ export default function Profiles() {
           </span> */}
           <input
             type="text"
-            onKeyUp={(e) => {
-              setTerm(e.target.value);
+            onKeyUp={(e: React.KeyboardEvent<HTMLInputElement>) => {
+              setTerm(e.currentTarget.value);
             }}
             placeholder="Who are you looking for?"
             className="z-10 m-8 w-4/6 rounded-md border border-gray-400 bg-transparent placeholder:-mb-14 placeholder:text-center placeholder:text-neutral-400"
