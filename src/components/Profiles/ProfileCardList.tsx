@@ -11,6 +11,11 @@ export default function ProfileCardList(props) {
       location: "New York",
       link: "https://github.com/ranylm",
     },
+    {
+      name: "Arwa Sharif",
+      location: "Chicago",
+      link: "https://github.com/ArwaSharif",
+    },
   ];
 
   const Profiles = names
