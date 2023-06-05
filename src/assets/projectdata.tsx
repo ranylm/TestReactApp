@@ -106,7 +106,7 @@ export const projects = [
     name: "ArwaSharif",
     project: "FindtheHiddenObjects",
     link: "https://github.com/ArwaSharif/Mod1Project-HiddenObjects",
-    gamelink: "https://arwasharif.github.io/Mod1Project-HiddenObjects/",
+    gamelink: "https://arwasharif.github.io/FindTheHiddenObjects-Game/",
   },
   {
     name: "MichaelCharime",
